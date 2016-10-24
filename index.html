@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+
+
+	<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+	<!-- Site Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Alice|Proza+Libre" rel="stylesheet">
+
+	<!-- site styles -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<!-- Bootstrap Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- <script type="text/javascript" src="jquery-3.1.1.min.js"></script> -->
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<section class="content container">
+		<h1>Wikipedia Simple Search</h1>
+		
+		<div class="random_section">
+			<h2>I'm feeling lucky. Suprise Me!</h2> 
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="surprise_btn">Surprise</button></a>
+		</div>
+
+		<h3>My luck stinks. Find my search term instead.</h3>
+		
+		<input class="form_control" id="search_input" type="search"/>
+		<button id="search_button" type="button">Click</button>
+
+		<div id="results">
+			<ul id="results_list">
+				<li></li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>
